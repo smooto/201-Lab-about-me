@@ -2,7 +2,7 @@
 import { isYes } from './is-yes.js';
 
 const quizButton = document.getElementById('quiz-button');
-const resultsPara = document.getElementById('results');
+const resultsPara = document.getElementById('results-para');
 
 // track friend points
 let friendPoints = 0;
