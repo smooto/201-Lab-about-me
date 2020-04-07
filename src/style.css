@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Goudy Bookletter 1911";
+    src: url('./fonts/GoudyBookletter1911-Regular.ttf');
+}
+
+body, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 1.25em;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    color: palevioletred;
+}
+
+header, section {
+    height: 100vh;
+    margin: 0px;
+    border-left: 1px solid black;
+}
+
+header {
+    width: 20vw;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin-top: 25px;
+}
+
+section {
+    width: 30vw;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.sideways-header {
+    margin: 0;
+    padding: 0;
+    transform: rotate(-90deg);
+    align-self: center;
+    text-align: center;
+}
+
+.article-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+article {
+    height: 50%;
+    width: 100%;
+    padding: 20px 50px 20px 25px;
+    border-left: 1px solid black;
+}
+
+#info-section {
+    background-color: #fcd9e1;
+}
+
+#image-section {
+    background-image: url('./images/italian-greyhounds-1600.jpg');
+    background-position: 45% 50%;
+}
+
+#quiz-section {
+    background-color: #fcd9e1;
+}
+
+button {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+}
+
+/* header, section, footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header, footer {
+    padding: 50px;
+    height: 15vh;
+}
+
+section {
+    height: 85vh;
+    align-items: flex-start;
+}
+
+article h1, article p, article ol, article ul {
+    margin: 50px;
+    width: 20vw;
+}
+
+button {
+    display: block;
+} */
+
+/* 
+header {
+    width: 100%;
+    margin: 0 auto;
+}
+
+section, footer {
+    width: 100%;
+    margin: 0 auto 50px auto;
+    padding: 50px;
+    border: 5px solid black;
+    background-color: white;
+}
+
+header h1 {
+    width: fit-content;
+    padding: 10px;
+    font-size: 4em;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+article {
+    margin: 0 auto;
+}
+
+article h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+#info-section {
+    display: flex;
+    align-items: flex-start;
+}
+
+#info-section article {
+    width: 30%;
+} */
